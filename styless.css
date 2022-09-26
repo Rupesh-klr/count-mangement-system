@@ -1,0 +1,40 @@
+.roll{
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+    margin: 3px;
+    padding: 10px;
+    text-align: center;
+    padding-block-start: 3px;
+    padding-block-end: 3px;
+    width: 100px;
+}
+.nav-buttons{
+    width: 100%;
+    margin: 5px;
+}
+#centering{
+    text-align: center;
+    align-items: center;
+}
+
+.mark >.roll{
+    background-color: rgb(48, 216, 48);
+    color: rgba(0, 0, 0, 0.943);
+}
+.mark1 >.roll{
+    background-color: rgba(218, 100, 65, 0.626);
+    color: rgba(2, 0, 0, 0.943);
+}
+.mark2 >.v1{
+    background-color: rgb(48, 216, 48);
+    color: rgba(0, 0, 0, 0.943);
+}
+.mark2 >.v2{
+    background-color: rgba(218, 100, 65, 0.626);
+    color: rgba(2, 0, 0, 0.943);
+}
+#form1{
+    width: auto;
+    margin: auto;
+}

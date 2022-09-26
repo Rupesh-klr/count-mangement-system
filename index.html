@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://kit.fontawesome.com/704ff50790.js" 
+        crossorigin="anonymous"> -->
+    </script>
+  <link rel="stylesheet" href="styless.css">
+  <!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+    <title>Document</title>
+</head>
+<body>
+    <a
+id="whatsapp"
+target="_blank"
+rel="noopener noreferrer"
+data-size="large"
+style="display:none;"
+>
+</a>
+
+    <div id="nav-buttons">
+        <button id="changeformate">change</button>&nbsp;
+        <button id="editformate">Edit</button>
+        <div id="databtn"></div>
+        <llll id="form1" style="display:none;";>
+            
+            <select id = "myList" onchange = "triggerfun()" >  
+                <option> only numbers</option>  
+                <option> only unit place digit </option>  
+                <option> hexa decimal value </option>  
+                <option> college attendence number </option>  
+                <option> --custom-- </option>  
+                </select><br>  
+                
+            <div>
+                <label >&nbsp;start number:&nbsp;</label>
+                <input id="startnumber">
+            </div>
+            <br>
+            <div>
+                <label>&nbsp; last&nbsp; number:&nbsp;</label>
+                <input id="endnumber">
+            </div>
+            <br>
+            &nbsp;&nbsp;&nbsp;<button id="submitbtn" >submit</button>
+            &nbsp;&nbsp;&nbsp;<button id="savepoint" >savepoint</button>
+            &nbsp;&nbsp;&nbsp;<button id="cleardatabase" >clear</button>
+        </llll>
+    </div><hr>
+    <div class="mark2" id="allmembers"></div><hr>
+    <div id="centering">
+        <button id="sharebtn">share</button>
+        <button id="copybtn">copy</button>
+        <input id="texter" type="text">
+    </div>
+    <h1 id="centering">list 1</h1><p id="date" style="text-align:right;"></p>
+    <div id="list1">    </div><hr>
+    <h1 id="head1">present</h1>
+    <div class="mark" id="present"></div><hr>
+    <div id="centering">
+        <button id="sharebtn2">share</button>
+        <button id="copybtn2">copy</button>
+        <input id="texter2" type="text">
+    </div>
+    <h1 id="centering">list 2</h1><p id="date1" style="text-align:right;"></p>
+    <div id="list2">    </div><hr>
+    <div class="mark1" id="absent"><h1 id="head2" >absent</h1></div>
+      <script type="text/javascript" src="script.js"></script>
+
+
+    </body>
+</html>
